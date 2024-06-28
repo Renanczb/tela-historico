@@ -1,0 +1,182 @@
+
+
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.content-box {
+  width: 90%;
+  height: 90%;
+  padding: 2rem 5rem 0 5rem;
+  background-color: #d0d0d0;
+  border-radius: 5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  height: 10rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 {
+  margin: 4rem 5rem 1rem 0;
+  color: #909090;
+  font-weight: bold;
+}
+
+.questions-container {
+  width: 100%;
+  height: 68%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  padding: 5rem 20rem 0 22rem;
+  border-radius: 5rem;
+}
+
+.search-box {
+  position: relative;
+  margin: 0 0 2rem 0;
+}
+
+.search-box i {
+  position: absolute;
+  top: 28%;
+  left: 3%;
+}
+
+.search-box input {
+  width: 40rem;
+  height: 6rem;
+  padding: 1rem 1rem 1rem 5rem;
+  border: none;
+  outline: none;
+  border-radius: 1rem;
+  font-size: 1.6rem;
+  background-color: #333333;
+  color: white;
+
+  font-size: 2.4rem;
+}
+
+.questions-container input::placeholder {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 2.4rem;
+}
+
+.card-columns {
+  display: flex;
+  padding-right: 1rem;
+  padding-bottom: 5rem;
+  overflow-y: auto;
+  gap:4rem;
+}
+
+.card {
+  width: 40rem;
+  height: 16rem;
+  margin: 2rem 0 0 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  background-color: #333333;
+  border-radius: 2.5rem;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  transition: all 500ms ease-in-out;
+  color: #ffffff;
+}
+
+.card:hover {
+  transform: translate(0%, -5%) scale(1);
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.card h3 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+.card span {
+  font-size: 1.6rem;
+  color: #666666;
+}
+
+.data,
+.conteudo,
+.quantidade-de-jogadores {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.card img {
+  margin-right: 1rem;
+}
+
+.data img {
+  margin-left: 0.2rem;
+  margin-right: 0.8rem;
+}
+
+.conteudo img {
+  margin-left: 0.4rem;
+  height: 1.6rem;
+}
+
+.quantidade-de-jogadores img {
+  margin-left: 0.3rem;
+}
+
+.quantidade-de-jogadores {
+  text-transform: uppercase;
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+::-webkit-scrollbar-track {
+  background-color: #ffffff;
+  border-radius: 1rem;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #333333;
+  border-radius: 1rem;
+}
+
+.criar-partida {
+  margin-top: 2.5rem;
+  padding: 2rem 20rem;
+  border-radius: 3rem;
+  border: none;
+  cursor: pointer;
+  background-color: #333333;
+  color: #ffffff;
+  transition: all 500ms ease-in-out;
+}
+
+.criar-partida:hover {
+  background-color: #404040;
+  color: #ffffff;
+}
